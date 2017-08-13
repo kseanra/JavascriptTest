@@ -1,0 +1,1 @@
+module.exports = "<h1>It works from content.js ken</h1>";

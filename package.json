@@ -1,0 +1,40 @@
+{
+  "name": "jstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-mocks": "^1.6.5",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.4"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "wallaby-webpack": "*",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "3.0.0"
+  },
+  "scripts": {
+    "test": "karma start",
+    "start": "webpack-dev-server --watch --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kseanra/JavascriptTest.git"
+  },
+  "author": "Ken Liang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kseanra/JavascriptTest/issues"
+  },
+  "homepage": "https://github.com/kseanra/JavascriptTest#readme"
+}
